@@ -1,4 +1,6 @@
 const IMAGE_URL = "http://placehold.co/200";
+const IMAGE_URL2 = "http://placehold.co/200";
+
 const USER = {
     id: 1,
     username: `User Name`,
@@ -8,6 +10,17 @@ const USER = {
         bands: [`wallows`, `rare occasions`]
     }
 }
+const USER2 =  {
+    id: 2,
+    username: `User SecondName`,
+    description: `Me gustan las nutrias`,
+    age: `46`,
+    fav_music: {
+     bands: [`Beatles`, `Blackpink`, `rolling stones`]
+    }
+ } 
+
+
 
 //Selectores
 const card = document.getElementById("card-container");
